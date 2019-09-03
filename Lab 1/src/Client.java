@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  			   Author Name : Nirali Hirpara
      Professor's full name : Prof. Tevin Apenteng
-	Assignment Description : Lab 3 - Java Networking
+	Assignment Description : Lab 1 - Java Networking
          Class Description : Client class to give instruction to the server. 
            Submission Date : 12 Jan 2019
 */
@@ -24,7 +24,7 @@ public class Client {
 
             // Open a socket to connect to the server.
             // server IP address/name: "localhost"
-            // port number 8177
+            // port number 2234
             Socket clientSocket = new Socket("localhost", 2234);
 
 

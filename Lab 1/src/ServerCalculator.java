@@ -7,7 +7,7 @@ import java.util.Date;
 /*
   			   Author Name : Nirali Hirpara
      Professor's full name : Prof. Tevin Apenteng
-	Assignment Description : Lab 3 - Java Networking
+	Assignment Description : Lab 1 - Java Networking
          Class Description : Listen to the request given by the client and provide service accordingly. 
            Submission Date : 12 Jan 2019
 */
@@ -32,7 +32,7 @@ public class ServerCalculator {
         while (true) {
 
             try {
-                // create a server socket port number:8177
+                // create a server socket port number:2234
                 ServerSocket s = new ServerSocket(2234);
 
                 // listen and wait
